@@ -1,0 +1,49 @@
+.wrap{
+	width:80%;
+	margin:0 auto;
+	position: relative;
+}
+
+.littlePhotoWrap{
+	display: flex;
+}
+
+.littlePhotoWrap div {
+	flex:33%;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.bigPhoto {
+	width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.bigPhoto img {
+	width: 70%;
+}
+
+.left{
+	width:50px;
+	height:50px;
+	background: #000;
+	position: fixed;
+	top:43%;
+	left:16%;
+	background: url("1.png")left top no-repeat;
+	transform: rotate(-90deg);
+
+}
+
+.right{
+	width:50px;
+	height:50px;
+	background: url("1.png")left top no-repeat;
+	transform: rotate(90deg);
+	position: fixed;
+    top: 43%;
+    right: 16%;
+
+}
